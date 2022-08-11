@@ -17,6 +17,8 @@ cd /src
 cd /plugins
 	wget https://github.com/neo4j-contrib/neo4j-apoc-procedures/releases/download/${Versions[neo4j_apoc]}/apoc-${Versions[neo4j_apoc]}-core.jar -P `pwd`
 	wget https://github.com/neo4j/graph-data-science/releases/download/${Versions[neo4j_gds]}/neo4j-graph-data-science-${Versions[neo4j_gds]}-standalone.jar -P `pwd`
+	
+Declare Your Version in manage.sh (line 13)
 ```
 
 ## Main Usage
