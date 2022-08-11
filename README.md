@@ -47,9 +47,34 @@ Declare Your Version in manage.sh (line 13)
 
 # delete an instance
 ./manage.sh delete instance_name
+```
 
-# restart an instance
-./manage.sh restart instance_name
+## Monitor Instances
+
+```bash
+# find the bolt port of an instance
+./manage.sh find_bolt_port instance_name
+
+# find the http port of an instance
+./manage.sh find_http_port instance_name
+
+# find the https port of an instance
+./manage.sh find_https_port instance_name
+
+# find the pid of an instance
+./manage.sh find_pid instance_name
+
+# show log file of an instance
+./manage.sh log_neo4j instance_name
+
+# show debug file of an instance
+./manage.sh debug_neo4j instance_name
+
+# find list of all instances
+./manage.sh find_all_instances
+
+# find list of all running instances
+./manage.sh find_running_instances
 
 ```
 
@@ -57,6 +82,3 @@ Declare Your Version in manage.sh (line 13)
 Pull requests are welcome. 
 
 For major changes, please open an issue first to discuss what you would like to change.
-
-## License
-https://github.com/Alirezahr75
