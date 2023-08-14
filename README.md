@@ -1,4 +1,4 @@
-# Multiple-Instances-Neo4j-Manager
+# Multi-Instance-Neo4j-Manager
 
 neo4j_manager provides the functionalities to create, run, config and manage multiple standalone instances of neo4j with "apoc" and "gds" plugin on a single machine.
 
